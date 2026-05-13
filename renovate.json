@@ -5,6 +5,12 @@
   ],
   "packageRules": [
     {
+      "matchDepTypes": [
+        "action"
+      ],
+      "pinDigests": true
+    },
+    {
       "matchManagers": [
         "gomod"
       ],
